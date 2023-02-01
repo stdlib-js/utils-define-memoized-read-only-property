@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { PropertyName } from '@stdlib/types/object';
 
 /**
-* Define a memoized read-only object property.
+* Returns a property value.
 *
-* @module @stdlib/utils-define-memoized-read-only-property
+* @returns property value
+*/
+type Getter = () => any;
+
+/**
+* Defines a memoized read-only object property.
+*
+* ## Notes
+*
+* -   Read-only properties are **enumerable** and **non-configurable**.
+*
+* @param obj - object on which to define property
+* @param prop - property name
+* @param fcn - function whose return value will be memoized and set as the property value
 *
 * @example
-* var setMemoizedReadOnly = require( '@stdlib/utils-define-memoized-read-only-property' );
-*
 * var obj = {};
 *
 * function foo() {
@@ -37,12 +52,9 @@
 * var v = obj.foo;
 * // returns 'bar'
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function setMemoizedReadOnly( obj: any, prop: PropertyName, fcn: Getter ): void; // tslint:disable-line: max-line-length
 
 
 // EXPORTS //
 
-module.exports = main;
+export = setMemoizedReadOnly;
