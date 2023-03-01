@@ -129,8 +129,8 @@ for ( i = 0; i < 10; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/define-memoized-property`][@stdlib/utils/define-memoized-property]</span><span class="delimiter">: </span><span class="description">define a memoized object property.</span>
--   <span class="package-name">[`@stdlib/utils/define-read-only-property`][@stdlib/utils/define-read-only-property]</span><span class="delimiter">: </span><span class="description">define a read-only property.</span>
+-   <span class="package-name">[`@stdlib/utils-define-memoized-property`][@stdlib/utils/define-memoized-property]</span><span class="delimiter">: </span><span class="description">define a memoized object property.</span>
+-   <span class="package-name">[`@stdlib/utils-define-read-only-property`][@stdlib/utils/define-read-only-property]</span><span class="delimiter">: </span><span class="description">define a read-only property.</span>
 
 </section>
 
