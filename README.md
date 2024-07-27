@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setMemoizedReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-read-only-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-memoized-read-only-property/tags). For example,
+
+```javascript
 import setMemoizedReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-read-only-property@v0.2.2-esm/index.mjs';
 ```
 
@@ -91,7 +96,7 @@ The last argument should be a synchronous function whose return value will be me
 <script type="module">
 
 import fibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@esm/index.mjs';
-import setMemoizedReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-read-only-property@v0.2.2-esm/index.mjs';
+import setMemoizedReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-read-only-property@esm/index.mjs';
 
 function Foo() {
     var self;
