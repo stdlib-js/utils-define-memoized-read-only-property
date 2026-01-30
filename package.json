@@ -50,7 +50,7 @@
     "@stdlib/assert-is-enumerable-property": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/assert-is-writable-property": "^0.2.2",
-    "@stdlib/math-base-special-fibonacci": "^0.2.2",
+    "@stdlib/math-base-special-fibonacci": "^0.3.0",
     "@stdlib/string-from-code-point": "^0.2.2",
     "@stdlib/utils-noop": "^0.2.2",
     "@stdlib/utils-property-descriptor": "^0.2.2",
